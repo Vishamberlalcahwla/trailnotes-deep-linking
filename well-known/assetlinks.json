@@ -1,0 +1,22 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.trailnotes",
+      "sha256_cert_fingerprints": [
+        "REPLACE:WITH:YOUR:RELEASE:SIGNING:KEY:SHA256:FINGERPRINT"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.trailnotes.expo",
+      "sha256_cert_fingerprints": [
+        "REPLACE:WITH:YOUR:RELEASE:SIGNING:KEY:SHA256:FINGERPRINT"
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "ABCDE12345.app.trailnotes",
+          "ABCDE12345.app.trailnotes.expo"
+        ],
+        "components": [
+          { "/": "/trail/*" },
+          { "/": "/settings" }
+        ]
+      }
+    ]
+  }
+}

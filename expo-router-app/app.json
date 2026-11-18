@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "TrailNotes",
+    "slug": "trailnotes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.trailnotes.expo",
+      "associatedDomains": [
+        "applinks:trailnotes.app"
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "app.trailnotes.expo",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "trailnotes.app",
+              "pathPrefix": "/trail"
+            },
+            {
+              "scheme": "https",
+              "host": "trailnotes.app",
+              "path": "/settings"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "trailnotes",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
